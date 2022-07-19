@@ -6,11 +6,12 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 }
 
-/* ---------header styles---------- */
+/* ---------------header styles---------------- */
+
 .header {
     background-color: #161616;
     color: white;
-    margin: 50px 100px;
+    margin: 35px 110px;
     border-radius: 30px;
 }
 
@@ -22,15 +23,24 @@ body {
 
 .header-text {
     width: 100%;
-    padding: 111px;
+    padding: 110px;
 }
 
 .header-banner {
     width: 100%;
-    padding: 40px;
+    padding: 25px;
 }
 
-.header a {
+.header-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header-text p {
+    padding: 20px 0;
+}
+
+.header-text a {
     text-decoration: none;
     color: white;
     background-color: #DD0000;
