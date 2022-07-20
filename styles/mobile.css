@@ -1,0 +1,21 @@
+@media screen and (max-width:688px) {
+    .header {
+        margin: 35px 20px;
+        border-radius: 10px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        width: 340px;
+        height: 620px;
+        /* align-items: center; */
+
+    }
+
+    .header-text {
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+        padding: 110px;
+    }
+}
