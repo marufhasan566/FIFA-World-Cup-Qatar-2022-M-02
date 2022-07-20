@@ -87,6 +87,11 @@ body {
 
 }
 
+.navigation a:hover {
+    background-color: orangered;
+    color: white;
+}
+
 #current-section-style {
     background-color: #DD0000;
     color: white;
@@ -193,22 +198,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/* 
-
-.highlights {
-    background-color: white;
-    width: calc(100% - 325px);
-    margin-left: 24px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.matches {
-    border: 1px solid rgb(189, 187, 187);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-} */
