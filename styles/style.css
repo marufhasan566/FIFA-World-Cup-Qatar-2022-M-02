@@ -38,8 +38,7 @@ body {
 
 .header-text p {
     padding-bottom: 20px;
-    text-align: justify;
-    color: tomato;
+    color: skyblue;
 }
 
 .header-text a {
@@ -67,12 +66,32 @@ body {
 }
 
 .side-nav {
-    background-color: gainsboro;
-    width: 312px;
+    background-color: #000000;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .highlights {
     background-color: wheat;
     width: calc(100% - 312px);
     margin-left: 24px;
+}
+
+.navigation a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+#current-section-style {
+    background-color: #DD0000;
+    color: white;
 }
