@@ -76,11 +76,6 @@ body {
     align-items: center;
 }
 
-.highlights {
-    background-color: wheat;
-    width: calc(100% - 312px);
-    margin-left: 24px;
-}
 
 .navigation a {
     background-color: white;
@@ -100,6 +95,15 @@ body {
 
 
 /* ------------------match-container-styles------------------- */
+.highlights {
+    background-color: white;
+    width: calc(100% - 312px);
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
 .matches {
     border: 1px solid rgb(189, 187, 187);
     border-radius: 5px;
@@ -108,7 +112,7 @@ body {
 }
 
 .thumbnail {
-    width: 50%;
+    width: 100%;
 }
 
 .thumbnail img {
@@ -118,5 +122,5 @@ body {
 }
 
 .info {
-    width: 50%;
+    width: 100%;
 }
