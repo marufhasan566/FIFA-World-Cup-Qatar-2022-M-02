@@ -38,7 +38,7 @@ body {
 
 .header-text p {
     padding-bottom: 20px;
-    color: skyblue;
+    color: #b5e5fb;
 }
 
 .header-text a {
@@ -67,8 +67,8 @@ body {
 
 .side-nav {
     background-color: #000000;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -109,11 +109,12 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
-.thumbnail {
+/* .thumbnail .info {
     width: 100%;
-}
+} */
 
 .thumbnail img {
     /* width: 315px;
@@ -121,9 +122,6 @@ body {
     width: 100%;
 }
 
-.info {
-    width: 100%;
-}
 
 
 
@@ -142,7 +140,7 @@ body {
 .footer-container h1 {
     font-size: 50px;
     text-align: center;
-    padding: 70px;
+    padding: 60px;
 }
 
 .footer-container hr {
