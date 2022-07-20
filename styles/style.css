@@ -8,11 +8,11 @@ body {
 
 /* ---------------header styles---------------- */
 
-.header {
+.header-main {
     background-color: #161616;
     color: white;
     margin: 35px 110px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .header-container {
@@ -37,7 +37,9 @@ body {
 }
 
 .header-text p {
-    padding: 20px 0;
+    padding-bottom: 20px;
+    text-align: justify;
+    color: tomato;
 }
 
 .header-text a {
@@ -47,4 +49,30 @@ body {
     padding: 7px 14px;
     border-radius: 60px;
     border: 2px solid white;
+}
+
+.fa-ticket {
+    color: yellow;
+    padding-left: 10px;
+}
+
+
+
+
+/* -----------------main section styles----------------- */
+
+.main-container {
+    margin: 110px;
+    display: flex;
+}
+
+.side-nav {
+    background-color: gainsboro;
+    width: 312px;
+}
+
+.highlights {
+    background-color: wheat;
+    width: calc(100% - 312px);
+    margin-left: 24px;
 }
