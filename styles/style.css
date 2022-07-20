@@ -95,3 +95,28 @@ body {
     background-color: #DD0000;
     color: white;
 }
+
+
+
+
+/* ------------------match-container-styles------------------- */
+.matches {
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 50%;
+}
+
+.thumbnail img {
+    /* width: 315px;
+    height: 175px; */
+    width: 100%;
+}
+
+.info {
+    width: 50%;
+}
