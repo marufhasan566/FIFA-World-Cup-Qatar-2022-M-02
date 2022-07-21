@@ -1,4 +1,4 @@
-@media screen and (max-width:767px) {
+@media screen and (max-width:576px) {
 
 
     .header-main {
@@ -15,11 +15,12 @@
         height: 39rem;
         display: grid;
         grid-template-row: repeat(3, 1fr);
+
     }
 
     .header-text {
-        max-width: 20.875rem;
-        padding: 3.875rem;
+        width: 20.875rem;
+        padding: 4.875rem;
         text-align: center;
     }
 
@@ -57,67 +58,30 @@
         height: 400px;
     }
 
-    /* 
-    .header-text {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .hidden {
-        width: 200px;
-    }
-
-    .header-text p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        padding-bottom: 0px;
-
-    }
-
-     .header-text a {
-        text-decoration: none;
-        color: white;
-        background-color: #DD0000;
-        padding: 5px 40px;
-        border-radius: 10px;
-        border: 2px solid bisque;
-    }
-
-    .header-banner {
-        width: 100%;
-    }
-
-    .header-banner img {
-        height: 400px;
-        width: 312px;
-        padding-left: 0px;
-    }
-
-    .header-text h1 {
-        font-size: 35px;
-        text-align: center;
-    } */
-
-
 
     /* -----------------main section styles----------------- */
+
     .main-container {
-        display: flex;
-        flex-direction: column;
-        margin: 100px;
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-evenly;
+        margin: 20px;
     }
 
 
     .side-nav {
+        text-align: center;
         background-color: transparent;
-        width: 300px;
-        height: 300px;
-        clear: both;
+        max-width: 20rem;
+        padding-left: 20%;
+        padding-top: 10%;
+
+    }
+
+    .side-navp {
+        text-align: justify;
     }
 
     .navigation a {
@@ -141,9 +105,7 @@
         margin-top: 50px;
         margin-left: 0;
         display: flex;
-        /* grid-template-columns: repeat(1, 1fr); */
         flex-direction: column;
-        /* gap: 20px; */
     }
 
     .thumbnail img {
