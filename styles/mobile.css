@@ -1,6 +1,9 @@
 @media screen and (max-width:576px) {
 
 
+
+    /* ---------------header styles---------------- */
+
     .header-main {
         background-color: #161616;
         color: white;
@@ -11,17 +14,32 @@
     }
 
     .header-container {
-        width: 20.875rem;
-        height: 39rem;
+        max-width: 20.875rem;
+        max-width: 39rem;
         display: grid;
         grid-template-row: repeat(3, 1fr);
 
     }
 
     .header-text {
-        width: 20.875rem;
-        padding: 4.875rem;
+        /* width: 20.875rem;
+        padding: 4.875rem; */
+        width: 50%;
+        padding: 80px;
         text-align: center;
+
+    }
+
+    .header-banner {
+        width: 50%;
+        padding: 25px;
+    }
+
+    .header-banner img {
+        width: 312px;
+        padding-left: 50px;
+        margin-top: -50px;
+        height: 400px;
     }
 
     .header-text h1 {
@@ -51,12 +69,7 @@
         border: 2px solid white;
     }
 
-    .header-banner img {
-        width: 312px;
-        padding-left: 50px;
-        margin-top: -50px;
-        height: 400px;
-    }
+
 
 
     /* -----------------main section styles----------------- */
