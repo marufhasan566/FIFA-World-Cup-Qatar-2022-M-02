@@ -192,4 +192,35 @@
         display: flex;
         justify-content: center;
     }
+
+
+
+
+    /* ------------------Upcoming Match Styles------------------ */
+
+
+    .header-banner img {
+        height: 350px;
+        width: 300px;
+    }
+
+    .team {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: justify;
+    }
+
+
+    .team img {
+        width: 120px;
+        height: 75px;
+        margin: 5px;
+    }
+
+    .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
