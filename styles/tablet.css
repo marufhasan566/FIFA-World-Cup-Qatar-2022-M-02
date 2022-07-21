@@ -1,0 +1,36 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background-color: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        /* font-family: 'Montserrat', sans-serif; */
+    }
+
+
+    /* ---------------header styles---------------- */
+
+    .header-main {
+        background-color: #161616;
+        color: white;
+        margin: 50px 50px;
+        border-radius: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        width: 735px;
+        height: 400px;
+    }
+
+    .header-text {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .header-banner {
+        width: 100%;
+        padding: 10px;
+    }
+
+}

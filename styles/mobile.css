@@ -1,13 +1,26 @@
-@media screen and (max-width:688px) {
+@media screen and (max-width:767px) {
+    body {
+        background-color: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        /* font-family: 'Montserrat', sans-serif; */
+    }
+
     .header-main {
         margin: 35px 20px;
         border-radius: 10px;
+        width: 767px;
+        height: 677px;
     }
 
     .header-container {
+        display: flex;
         flex-direction: column;
-        width: 340px;
-        height: 620px;
+        /* align-items: center; */
+        width: 100%;
+        height: 100%;
+
     }
 
     .header-text {
@@ -24,20 +37,20 @@
     }
 
     .header-text p {
-        white-space: wrap;
+        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         padding-bottom: 0px;
 
     }
 
-    .header-text a {
+    */ .header-text a {
         text-decoration: none;
         color: white;
         background-color: #DD0000;
-        padding: 5px 10px;
+        padding: 5px 40px;
         border-radius: 10px;
-        border: 2px solid bisque
+        border: 2px solid bisque;
     }
 
     .header-banner {
@@ -47,10 +60,12 @@
     .header-banner img {
         height: 400px;
         width: 312px;
+        padding-left: 0px;
     }
 
     .header-text h1 {
-        font-size: 30px;
+        font-size: 35px;
+        text-align: center;
     }
 
 
@@ -88,9 +103,96 @@
     .highlights {
 
         width: 100%;
+        margin-top: 50px;
         margin-left: 0;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        display: flex;
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+
+    .thumbnail img {
+        width: 100%;
+    }
+
+
+    .footer-main {
+        background-color: #161616;
+        color: #25e9d7;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: 400px
+    }
+
+    .footer-container h1 {
+        font-size: 50px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .footer-container hr {
+        width: 90%;
+    }
+
+    .footer-container p {
+        text-align: center;
+    }
+
+    .footer-container a {
+        color: #b5e5fb;
+        text-decoration: none;
+        padding: 20px 15px;
+
+    }
+
+    .footer-container a:hover {
+        color: #6c63ff;
+    }
+
+    .fa-brands {
+        font-size: 40px;
+    }
+
+    #copyright {
+        padding-top: 50px;
+    }
+
+
+    /* --------------------footer styles--------------------- */
+
+    .footer-main {
+        background-color: #161616;
+        color: #25e9d7;
+    }
+
+    .footer-container {
+        height: 700px
+    }
+
+    .footer-container h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .footer-container a:hover {
+        color: #6c63ff;
+    }
+
+    .fa-brands {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    #copyright {
+        padding-top: 25px;
+    }
+
+    .links a {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
     }
 }
