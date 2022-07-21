@@ -1,5 +1,16 @@
 @media screen and (min-width:577px) and (max-width:992px) {
 
+    /* ----------------animation---------- */
+    @keyframes beeping {
+        0% {
+            color: orange;
+        }
+
+        100% {
+            color: #25E9D7;
+        }
+    }
+
 
     /* ---------------header styles---------------- */
 
